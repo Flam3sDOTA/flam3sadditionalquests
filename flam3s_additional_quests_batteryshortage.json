@@ -13,24 +13,28 @@
         "type": "GiveItem",
         "accepted_items": ["590a358486f77429692b2790"],
         "count": 2,
-        "message": "Find Rechargeable Batteries"
+        "message": "Find Rechargeable Batteries in raid",
+        "found_in_raid_only": true
       },
       {
         "type": "GiveItem",
         "accepted_items": ["5672cb124bdc2d1a0f8b4568"],
         "count": 2,
-        "message": "Find AA Batteries"
+        "message": "Find AA Batteries in raid",
+        "found_in_raid_only": true
       },
       {
         "type": "GiveItem",
         "accepted_items": ["5672cb304bdc2dc2088b456a"],
         "count": 2,
-        "message": "Find D Size Batteries"
+        "message": "Find D Size Batteries in raid",
+        "found_in_raid_only": true
       },
       {
         "type": "GiveItem",
         "accepted_items": ["5e2aedd986f7746d404f3aa4"],
-        "message": "Find GreenBat Lithium Battery"
+        "message": "Find GreenBat Lithium Battery in raid",
+        "found_in_raid_only": true
       }
     ],
     "rewards": {
