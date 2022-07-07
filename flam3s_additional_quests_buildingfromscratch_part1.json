@@ -1,0 +1,153 @@
+[
+  {
+    "id": "flam3s_additional_quests_buildingfromscratch_part1",
+    "trader_id": "mechanic",
+    "name": "Building From Scratch - Part 1",
+    "level_needed": 18,
+    "description": "To cut the long story short, I’ve recently tried to build a neural network to control the cameras. However, it killed my computer, and it is acting up lately - bugs, freezes, and everything. Hit me up with some new parts. And make sure it's all new and untouched!",
+    "success_message": "You actually brought them! I’ll grab a screwdriver and get to work. Here is your reward.",
+    "descriptive_location": "any",
+    "image": "5ac4dbb086f7743e7c61ca09",
+    "missions": [
+      {
+        "type": "GiveItem",
+        "accepted_items": ["5c06779c86f77426e00dd782"],
+        "count": 3,
+        "message": "Find Bundle of Wires"
+      },
+      {
+        "type": "GiveItem",
+        "accepted_items": ["57347baf24597738002c6178"],
+        "count": 2,
+        "message": "Find RAMs"
+      },
+      {
+        "type": "GiveItem",
+        "accepted_items": ["59e36c6f86f774176c10a2a7"],
+        "message": "Find Power Cord"
+      },
+      {
+        "type": "GiveItem",
+        "accepted_items": ["57347c2e24597744902c94a1"],
+        "message": "Find Power Supply Unit"
+      },
+      {
+        "type": "GiveItem",
+        "accepted_items": ["573477e124597737dd42e191"],
+        "message": "Find PC CPU"
+      },
+      {
+        "type": "GiveItem",
+        "accepted_items": ["5734779624597737e04bf329"],
+        "message": "Find CPU fan"
+      },
+      {
+        "type": "GiveItem",
+        "accepted_items": ["590a3b0486f7743954552bdb"],
+        "message": "Find Printed Circuit Board"
+      },
+      {
+        "type": "GiveItem",
+        "accepted_items": ["5734781f24597737e04bf32a"],
+        "message": "Find DVD Drive"
+      },
+      {
+        "type": "GiveItem",
+        "accepted_items": ["590c392f86f77444754deb29"],
+        "message": "Find SSD drive"
+      }
+    ],
+    "rewards": {
+      "xp": 10500,
+      "items": {
+        "569668774bdc2da2298b4568": 1000,
+        "5c12620d86f7743f8b198b72": 1,
+        "59faff1d86f7746c51718c9c": 1
+      }
+    }
+  },
+  {
+    "id": "flam3s_additional_quests_buildingfromscratch_part2",
+    "trader_id": "mechanic",
+    "name": "Building From Scratch - Part 2",
+    "locked_by_quests": ["flam3s_additional_quests_buildingfromscratch_part1"],
+    "level_needed": 20,
+    "descriptive_location": "customs",
+    "image": "5979ed4c86f7742f55674442",
+    "success_message": "Good work, my friend. We will use the data for the information we need. Here's your cut.",
+    "description": "Listen up, I have set up the neural network to control the cameras. But there is a slight problem; I can't access them. I need you to obtain the Flash drive with the special info, it's planted in the red burned car's trunk, on the nearby bridge.",
+    "missions": [
+      {
+        "type": "FindItem",
+        "accepted_items": ["5c12301c86f77419522ba7e4"],
+        "message": "Obtain the Flash drive with the special info on Customs"
+      },
+      {
+        "type": "GiveItem",
+        "accepted_items": ["5c12301c86f77419522ba7e4"],
+        "message": "Hand over the Flash drive with with the special info"
+      }
+    ],
+    "rewards": {
+      "xp": 12500,
+      "items": {
+        "569668774bdc2da2298b4568": 500,
+        "5ad5d7d286f77450166e0a89": 1,
+        "5d03784a86f774203e7e0c4d": 1
+      }
+    }
+  },
+  {
+    "id": "flam3s_additional_quests_buildingfromscratch_part3",
+    "trader_id": "mechanic",
+    "name": "Building From Scratch - Part 3",
+    "locked_by_quests": ["flam3s_additional_quests_buildingfromscratch_part2"],
+    "level_needed": 20,
+    "descriptive_location": "shoreline",
+    "image": "5ac4dbb086f7743e7c61ca09",
+    "success_message": "Great, mercenary. This information opens up many possibilities for me. Here is your reward.",
+    "description": "Greetings, mercenary. Currently I have two neural networks, one scans the faces on the cameras and compares them with the database, and the other one currently scans nothing. I'd like to stay well-informed about what is happening in the neighborhood to feel more at peace.",
+    "start_rewards": {
+      "items": {
+        "5b4391a586f7745321235ab2": 3
+      }
+    },
+    "missions": [
+      {
+        "type": "PlaceItem",
+        "accepted_items": [
+            "5b4391a586f7745321235ab2"
+        ],
+        "zone_id": "ter_013_area_3",
+        "message": "Install a WI-FI camera on the medical container to watch the Health Resort",
+        "plant_time": 15
+      },
+      {
+        "type": "PlaceItem",
+        "accepted_items": [
+            "5b4391a586f7745321235ab2"
+        ],
+        "zone_id": "place_peacemaker_001",
+        "message": "Install a WI-FI camera on the boat to watch the Pier",
+        "plant_time": 15
+      },
+      {
+        "type": "PlaceItem",
+        "accepted_items": [
+          "5b4391a586f7745321235ab2"
+        ],
+        "zone_id": "place_SIGNAL_03_2",
+        "message": "Install a WI-FI camera on the radio tower to watch the Shoreline territory",
+        "plant_time": 15
+      }
+  ],
+    "rewards": {
+      "xp": 15000,
+      "items": {
+        "569668774bdc2da2298b4568": 750,
+        "5d1b32c186f774252167a530": 2,
+        "5d0375ff86f774186372f685": 2
+      }
+    }
+  }
+]

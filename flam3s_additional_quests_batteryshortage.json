@@ -1,0 +1,46 @@
+[
+  {
+    "id": "flam3s_additional_quests_batteryshortage",
+    "trader_id": "therapist",
+    "name": "Battery Shortage",
+    "level_needed": 8,
+    "description": "Good afternoon, young man. I need help for a good cause. We have several technical equipments, but they are not running. As I was told, they have been idle for too long and need batteries. I will make a proper list of the items we need. Can you bring them?",
+    "success_message": "Thank you. You did an important service to many, if not everyone.",
+    "descriptive_location": "any",
+    "image": "5979d3f986f7746d08051ce0",
+    "missions": [
+      {
+        "type": "GiveItem",
+        "accepted_items": ["590a358486f77429692b2790"],
+        "count": 2,
+        "message": "Find Rechargeable Batteries"
+      },
+      {
+        "type": "GiveItem",
+        "accepted_items": ["5672cb124bdc2d1a0f8b4568"],
+        "count": 2,
+        "message": "Find AA Batteries"
+      },
+      {
+        "type": "GiveItem",
+        "accepted_items": ["5672cb304bdc2dc2088b456a"],
+        "count": 2,
+        "message": "Find D Size Batteries"
+      },
+      {
+        "type": "GiveItem",
+        "accepted_items": ["5e2aedd986f7746d404f3aa4"],
+        "message": "Find GreenBat Lithium Battery"
+      }
+    ],
+    "rewards": {
+      "xp": 5000,
+      "items": {
+        "5449016a4bdc2d6f028b456f": 35000,
+        "544fb45d4bdc2dee738b4568": 1,
+        "5b4335ba86f7744d2837a264": 2,
+        "619cc01e0a7c3a1a2731940c": 2
+      }
+    }
+  }
+]

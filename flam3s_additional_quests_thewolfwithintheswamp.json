@@ -1,0 +1,58 @@
+[
+  {
+    "id": "flam3s_additional_quests_thewolfwithintheswamp",
+    "trader_id": "peacekeeper",
+    "name": "The Wolf Within the Swamp",
+    "level_needed": 32,
+    "description": "Good day! As you remember, the conflict here was rather serious and there is some heavy machinery left on the Shoreline. A little bird told me that Mechanic is trying to screw me by stealing those goods. We have a business here, and I have my own interest in disrupting his operations, you know. Place signal jammers on the speficied places on Shoreline.",
+    "success_message": "Your promptness is amazing, great job! Here's your reward.",
+    "descriptive_location": "shoreline",
+    "image": "5a29221d86f77457303da9fa",
+    "missions": [
+      {
+        "type": "PlaceSignalJammer",
+        "zone_id": "place_peacemaker_003_N1",
+        "plant_time": 10,
+        "message": "Place the Signal Jammer on the first T-90 tank on Shoreline."
+      },
+      {
+        "type": "PlaceSignalJammer",
+        "zone_id": "place_peacemaker_003_N2",
+        "plant_time": 10,
+        "message": "Place the Signal Jammer on the second T-90 tank on Shoreline."
+      },
+      {
+        "type": "PlaceSignalJammer",
+        "zone_id": "place_peacemaker_003_N3",
+        "plant_time": 10,
+        "message": "Place the Signal Jammer on the third T-90 tank on Shoreline."
+      },
+      {
+        "type": "PlaceSignalJammer",
+        "zone_id": "place_peacemaker_005_N1",
+        "plant_time": 10,
+        "message": "Place the Signal Jammer on the first UN Truck on Shoreline."
+      },
+      {
+        "type": "PlaceSignalJammer",
+        "zone_id": "place_peacemaker_005_N2",
+        "plant_time": 10,
+        "message": "Place the Signal Jammer on the second UN Truck on Shoreline."
+      },
+      {
+        "type": "PlaceSignalJammer",
+        "zone_id": "place_peacemaker_008_2_N1",
+        "plant_time": 10,
+        "message": "Place the Signal Jammer on the Helicopter on Shoreline."
+      }
+    ],
+    "rewards": {
+      "xp": 7500,
+      "items": {
+        "5696686a4bdc2da3298b456a": 1200,
+        "5c0558060db834001b735271": 1,
+        "5d0379a886f77420407aa271": 2
+      }
+    }
+  }
+]

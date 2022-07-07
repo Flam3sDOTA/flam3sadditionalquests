@@ -1,0 +1,47 @@
+[
+  {
+    "id": "flam3s_additional_quests_thecultpartthree",
+    "trader_id": "skier",
+    "name": "The Cult - Part 3",
+    "level_needed": 30,
+    "description": "I've heard Peacekeeper sent you to get information about some kind of occult sect. I ain't got no interest in their sacrifices to their gods, and you have already received profit from Peacekeeper anyway, haven't you? Even though Peacekeeper is my friend, I don't like him getting more stuff than me. So, you just need to put these smart little things. It's a two-minute job, but the profit is good. Just gotta do it fast.",
+    "success_message": "Nicely done! Take this, as promised.",
+    "descriptive_location": "any",
+    "image": "5a29222486f77456f50d09e7",
+    "missions": [
+      {
+        "type": "PlaceSignalJammer",
+        "zone_id": "place_peacemaker_007_N1",
+        "plant_time": 10,
+        "message": "Place the Signal Jammer in the ritual spot on Customs"
+      },
+      {
+        "type": "PlaceSignalJammer",
+        "zone_id": "place_peacemaker_007_2_N2",
+        "plant_time": 10,
+        "message": "Place the Signal Jammer in the first ritual spot on Woods."
+      },
+      {
+        "type": "PlaceSignalJammer",
+        "zone_id": "place_peacemaker_007_2_N2_1",
+        "plant_time": 10,
+        "message": "Place the Signal Jammer in the second ritual spot on Woods"
+      },
+      {
+        "type": "PlaceSignalJammer",
+        "zone_id": "place_peacemaker_007_2_N3",
+        "plant_time": 10,
+        "message": "Place the Signal Jammer in the ritual spot on Shoreline"
+      }
+    ],
+    "rewards": {
+      "xp": 22500,
+      "items": {
+        "5449016a4bdc2d6f028b456f": 125500,
+        "5a34fe59c4a282000b1521a2": 1,
+        "5a32a064c4a28200741e22de": 1,
+        "5780cf7f2459777de4559322": 1
+      }
+    }
+  }
+]

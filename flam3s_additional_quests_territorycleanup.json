@@ -1,0 +1,43 @@
+[
+  {
+    "id": "flam3s_additional_quests_territorycleanup",
+    "trader_id": "jaeger",
+    "name": "Territory Cleanup",
+    "description": "The Customs, Woods, and Shoreline is under increasingly frequent attacks by different bandit gangs, this seriously interfered with my friends' operations. Help them with their Scav problem and we'll send a handsome reward your way. Long story short, go teach the bandits a lesson.",
+    "type": "Elimination",
+    "level_needed": 5,
+    "descriptive_location": "any",
+    "success_message": "Good job! Of course, there is enough scum in Tarkov, others will come for sure. But at least they will think twice before tearing the place apart.",
+    "image": "5968ec2986f7741ddf17db83",
+    "missions": [
+      {
+        "type": "Kill",
+        "message": "Kill 5 scavs on Customs",
+        "target": "Savage",
+        "count": 5,
+        "locations": ["customs"]
+      },
+      {
+        "type": "Kill",
+        "message": "Kill 5 scavs on Woods",
+        "target": "Savage",
+        "count": 5,
+        "locations": ["woods"]
+      },
+      {
+        "type": "Kill",
+        "message": "Kill 5 scavs on Shoreline",
+        "target": "Savage",
+        "count": 5,
+        "locations": ["shoreline"]
+      }
+    ],
+    "rewards": {
+      "xp": 5700,
+      "items": {
+        "5449016a4bdc2d6f028b456f": 40000,
+        "591afe0186f77431bd616a11": 1
+      }
+    }
+  }
+]

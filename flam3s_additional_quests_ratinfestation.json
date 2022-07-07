@@ -1,0 +1,70 @@
+[
+  {
+    "id": "flam3s_additional_quests_ratinfestation",
+    "trader_id": "skier",
+    "name": "Rat Infestation",
+    "level_needed": 14,
+    "description": "So, here's why I called for you. A rat disease is plaguing of my supply channels, and that makes me kinda unhappy, so to say, and I am kinda busy right now. So, to cut the long story short, go eliminate those rats for me.",
+    "success_message": "You’re a damn Pinkerton! Helped me out big time!",
+    "descriptive_location": "customs",
+    "image": "5c1e358f86f77408017f539f",
+    "start_rewards": {
+      "items": {
+        "60b0f561c4449e4cb624c1d7": 1
+      }
+    },
+    "missions": [
+      {
+        "type": "PlaceItem",
+        "accepted_items": [
+            "60b0f561c4449e4cb624c1d7"
+        ],
+        "zone_id": "Q019_3",
+        "message": "Stash 1 Rat Poison in the trash opposite of stairs on the 3rd floor of the dorm",
+        "plant_time": 15
+      }
+  ],
+    "rewards": {
+      "xp": 7500,
+      "items": {
+        "5449016a4bdc2d6f028b456f": 40000,
+        "58491f3324597764bc48fa02": 2
+      }
+    }
+  },
+  {
+    "id": "flam3s_additional_quests_roachinfestation",
+    "trader_id": "skier",
+    "name": "Roach Infestation",
+    "level_needed": 14,
+    "locked_by_quests": ["flam3s_additional_quests_ratinfestation"],
+    "description": "Let me tell you something. I settled in around here nicely after you eliminated rats, but something just doesn't feel right. Well, since we’re now best pals forever and stuff, I have to say that I am in trouble with roaches. I hope that you will deal with this matter too. Also, do not confuse these bugs with the white-haired witch's horse, or we could have a big problem.",
+    "success_message": "Good shit, gonna continue working together. Here's your reward.",
+    "descriptive_location": "customs",
+    "image": "5c1e358f86f77408017f539f",
+    "start_rewards": {
+      "items": {
+        "59e3596386f774176c10a2a2": 1
+      }
+    },
+    "missions": [
+      {
+        "type": "PlaceItem",
+        "accepted_items": [
+            "59e3596386f774176c10a2a2"
+        ],
+        "zone_id": "place_skier_12_2",
+        "message": "Stash 1 PAID AntiRoach Spray in the microwave on the 3rd floor of the dorm",
+        "plant_time": 15
+      }
+  ],
+    "rewards": {
+      "xp": 8000,
+      "items": {
+        "5449016a4bdc2d6f028b456f": 45000,
+        "56def37dd2720bec348b456a": 2,
+        "5a5f1ce64f39f90b401987bc": 2
+      }
+    }
+  }
+]
