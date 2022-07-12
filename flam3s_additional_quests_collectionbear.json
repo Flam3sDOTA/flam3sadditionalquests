@@ -1,0 +1,37 @@
+[
+  {
+    "id": "flam3s_additional_quests_collectionbear",
+    "repeatable": true,
+    "trader_id": "fence",
+    "name": "Collection - BEAR",
+    "description": "Hello there, mercenary. Eliminate BEAR PMC group and bring me their dogtags. After that, I'll start new rumors about you, something more interesting.",
+    "type": "Elimination",
+    "level_needed": 15,
+    "descriptive_location": "any",
+    "success_message": "Welcome back, merc. Hand over the dogtags, I'll pass them to where they need to be.",
+    "image": "5968ec2986f7741ddf17db83",
+    "missions": [
+      {
+        "type": "Kill",
+        "message": "Eliminate 10 BEAR PMC operatives all over the Tarkov territory",
+        "target": "Bear",
+        "count": 10,
+        "locations": ["any"]
+      },
+      {
+        "type": "GiveItem",
+        "accepted_items": ["59f32bb586f774757e1e8442"],
+        "count": 10,
+        "message": "Hand over the 10 found in raid BEAR PMC dogtags",
+        "found_in_raid_only": true
+      }
+    ],
+    "rewards": {
+      "items": {
+        "5449016a4bdc2d6f028b456f": 100000,
+        "5c94bbff86f7747ee735c08f": 1,
+        "619bdd8886e01e16f839a99c": 1
+      }
+    }
+  }
+]

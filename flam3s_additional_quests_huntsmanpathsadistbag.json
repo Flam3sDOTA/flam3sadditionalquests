@@ -1,0 +1,32 @@
+[
+  {
+    "id": "flam3s_additional_quests_huntsmanpathsadistbag",
+    "trader_id": "jaeger",
+    "name": "The Huntsman Path - Sadist Continued",
+    "level_needed": 23,
+    "description": "Hello there, thanks for dealing with Sanitar. My men examined his belongings, but failed to come up with something useful. I feel that TerraGroup is involved here for sure, and we need to dig more. Just be careful, this man is dangerous.",
+    "success_message": "Got it? Great. Now we just have to figure out how to find this laboratory.",
+    "descriptive_location": "any",
+    "image": "5f0f1f6c8f7810259b5fede0",
+    "missions": [
+      {
+        "type": "GiveItem",
+        "accepted_items": ["5e997f0b86f7741ac73993e2"],
+        "count": 1,
+        "message": "Hand over 1 Sanitar's Bag to Jaeger",
+        "found_in_raid_only": true
+      }
+    ],
+    "rewards": {
+      "xp": 18000,
+      "items": {
+        "5449016a4bdc2d6f028b456f": 125000,
+        "5ed515c8d380ab312177c0fa": 1,
+        "5ed515e03a40a50460332579": 1,
+        "5ed515f6915ec335206e4152": 1,
+        "5c0e531286f7747fa54205c2": 2,
+        "5c0e531d86f7747fa23f4d42": 2
+      }
+    }
+  }
+]

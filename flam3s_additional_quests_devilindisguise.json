@@ -1,0 +1,73 @@
+[
+  {
+    "id": "flam3s_additional_quests_devilindisguise",
+    "trader_id": "prapor",
+    "name": "Devil in Disguise",
+    "description": "Hello there, soldier. My men is about to disguise as Scavs to gather more information about them, but we are short of some equipment. I need you to kill some of those renegades, and bring their gear to my men.",
+    "type": "Elimination",
+    "level_needed": 7,
+    "descriptive_location": "any",
+    "success_message": "So, you got the job done, great.",
+    "image": "5968ec2986f7741ddf17db83",
+    "missions": [
+      {
+        "type": "Kill",
+        "message": "Eliminate 15 Scavs all over the Tarkov territory",
+        "target": "Savage",
+        "count": 15,
+        "locations": ["any"]
+      },
+      {
+        "type": "GiveItem",
+        "accepted_items": ["572b7fa524597762b747ce82"],
+        "count": 1,
+        "message": "Find Lower half-mask in raid",
+        "found_in_raid_only": true
+      },
+      {
+        "type": "GiveItem",
+        "accepted_items": ["59e7715586f7742ee5789605"],
+        "count": 1,
+        "message": "Find Respirator in raid",
+        "found_in_raid_only": true
+      },
+      {
+        "type": "GiveItem",
+        "accepted_items": ["59e7708286f7742cbd762753"],
+        "count": 1,
+        "message": "Find Ushanka ear flap hat in raid",
+        "found_in_raid_only": true
+      },
+      {
+        "type": "GiveItem",
+        "accepted_items": ["5aa2b9ede5b5b000137b758b"],
+        "count": 1,
+        "message": "Find Kinda cowboy hat in raid",
+        "found_in_raid_only": true
+      },
+      {
+        "type": "GiveItem",
+        "accepted_items": ["57e26fc7245977162a14b800"],
+        "count": 2,
+        "message": "Find Bars A-2607 95H18 knife in raid",
+        "found_in_raid_only": true
+      },
+      {
+        "type": "GiveItem",
+        "accepted_items": ["57e26ea924597715ca604a09"],
+        "count": 2,
+        "message": "Find Bars A-2607 Damascus knife knife in raid",
+        "found_in_raid_only": true
+      }
+    ],
+    "rewards": {
+      "xp": 5000,
+      "items": {
+        "5449016a4bdc2d6f028b456f": 40000,
+        "5ac66d2e5acfc43b321d4b53": 1,
+        "5a0d63621526d8dba31fe3bf": 2,
+        "5bc9c1e2d4351e00367fbcf0": 1
+      }
+    }
+  }
+]
