@@ -4,9 +4,9 @@
     "trader_id": "therapist",
     "name": "Charity Work",
     "level_needed": 6,
-    "description": "Good afternoon young man, I have a charity work for you. We need to deliver supplies, but scavs operating in the Customs area still go on with their dirty business. I’m really not comfortable with this kind of request, but I need you to deliver and hide the supplies. Also, be careful with the sniper guarding the road.",
+    "description": "Good afternoon young man, I have a charity work for you. We need to deliver supplies, but scavs operating in the Customs area still go on with their dirty business. I’m really not comfortable with this kind of request, but I need you to deliver the supplies.",
     "success_message": "Thank you, young man. You did an important service to many.",
-    "descriptive_location": "customs",
+    "descriptive_location": "any",
     "image": "59c2742286f77475ec568d92",
     "missions": [
       {
@@ -14,7 +14,6 @@
         "accepted_items": [
             "590c661e86f7741e566b646a"
         ],
-        "zone_id": "place_skier_11_3",
         "message": "Find 2 Car first aid kits in raid",
         "count": 2,
         "found_in_raid_only": true
@@ -24,19 +23,18 @@
         "accepted_items": [
             "5448fee04bdc2dbc018b4567"
         ],
-        "zone_id": "place_skier_11_3",
         "message": "Find 2 CBottle of Waters (0.6L) in raid",
         "count": 2,
         "found_in_raid_only": true
       },
       {
-        "type": "PlaceItem",
+        "type": "GiveItem",
         "accepted_items": [
           "5448ff904bdc2d6f028b456e"
         ],
-        "zone_id": "place_skier_11_3",
-        "message": "Stash 1 Army Crackers in bushes, located near sniper road",
-        "plant_time": 10
+        "message": "Find 2 Army Crackers in raid",
+        "count": 2,
+        "found_in_raid_only": true
       }
   ],
     "rewards": {
@@ -44,6 +42,16 @@
       "items": {
         "5449016a4bdc2d6f028b456f": 12500,
         "5938504186f7740991483f30": 1
+      },
+      "traders_reputations": {
+        "therapist": 0.01,
+        "prapor": 0.01,
+        "fence": 0.01,
+        "skier": 0.01,
+        "peacekeeper": 0.01,
+        "mechanic": 0.01,
+        "ragman": 0.01,
+        "jaeger": 0.01
       }
     }
   }

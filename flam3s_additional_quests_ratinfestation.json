@@ -29,6 +29,9 @@
       "items": {
         "5449016a4bdc2d6f028b456f": 40000,
         "58491f3324597764bc48fa02": 2
+      },
+      "traders_reputations": {
+        "skier": 0.02
       }
     }
   },
@@ -64,6 +67,9 @@
         "5449016a4bdc2d6f028b456f": 45000,
         "56def37dd2720bec348b456a": 2,
         "5a5f1ce64f39f90b401987bc": 2
+      },
+      "traders_reputations": {
+        "skier": 0.02
       }
     }
   }

@@ -31,6 +31,9 @@
         "5449016a4bdc2d6f028b456f": 100000,
         "5c94bbff86f7747ee735c08f": 1,
         "619bdd8886e01e16f839a99c": 1
+      },
+      "traders_reputations": {
+        "fence": 0.05
       }
     }
   }

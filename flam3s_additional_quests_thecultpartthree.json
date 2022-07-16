@@ -41,6 +41,10 @@
         "5a34fe59c4a282000b1521a2": 1,
         "5a32a064c4a28200741e22de": 1,
         "5780cf7f2459777de4559322": 1
+      },
+      "traders_reputations": {
+        "skier": 0.02,
+        "peacekeeper": -0.02
       }
     }
   }
