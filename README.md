@@ -25,6 +25,3 @@ This mod requires Trap's [Custom Quests](https://hub.sp-tarkov.com/files/file/51
 * The Huntsman Path - Sadist Continued - Unlocks at Jaeger level 23 (Find in raid Sanitar's Bag.)
 * The Cult Part 3 - Unlocks at Skier Level 30
 * The Wolf Within the Swamp - Unlocks at Peacekeeper Level 32
-
-## NOTE
-I can't give out trader reputations as a reward due to it not being implemented in Custom Quests mod.
